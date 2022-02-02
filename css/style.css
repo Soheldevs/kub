@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block ;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+/* ========================== All commone css end ========================== */
+
+
+/* ========================== nav commone css start ========================== */
+
+nav{
+    background: #2b2831;
+    line-height: 100px;
+}
+.navbar-toggler-icon i{
+    color: aqua;
+}
+.nav-link{
+    padding: 0;
+
+}
+.navbar-nav .nav-link{
+    padding-left: 45px !important;
+    padding-right: 0 !important;
+}
+nav ul li a{
+    font-weight: 700px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f5f5f5 !important;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+nav ul li a:hover{
+    color: #28b8d8 !important;
+}
+/* ========================== nav commone css end ========================== */
+
+/* ========================== banner commone css end ========================== */
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_overley{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background: rgba(0, 0, 0, 0.39);
+}
+.banner_text h3{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+.banner_text h4{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    padding-bottom: 21px;
+}
+.banner_text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+/* ========================== banner commone css end ========================== */
+
+/* ========================== service commone css end ========================== */
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.service_titel{
+    padding-bottom: 27px;
+}
+.service_titel h3{
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 33px;
+}
+.service_titel p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 80px;
+}
+.service_titel h4{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.service_item{
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+}
+
+.service_item_text h3{
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 27px;
+    padding-bottom: 13px;
+
+}
+.service_item_text p{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.slick-center .service_item{
+    background: #362f2d;
+}
+/* ========================== service commone css end ========================== */
+
+
+/* ========================== instagram commone css end ========================== */
+#instagram{
+    background: #2c2c2c;
+}
+.instgram_titel{
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+.instgram_titel h4{
+        font-size: 18px;
+        color: #d5d5d5;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+}
+.instgram_titel h4::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    right: -114px;
+    transform: translateY(-50%);
+}
+.instgram_titel h4::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    left: -114px;
+    transform: translateY(-50%);
+}
+.instgram_footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.instgram_footer i{
+    color: #9a9a9a;
+    font-size: 14px;
+}
+.instgram_footer a{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 1px solid #9a9a9a;
+    padding: 16px 25px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/* ========================== instagram commone css end ========================== */
+
+
+/* ========================== journal commone css end ========================== */
+#journal{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.journal_titel{
+    padding-bottom: 30px;
+}
+.journal_titel h3{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.journal_titel h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    right: -114px;
+    transform: translateY(-50%);
+}
+.journal_titel h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    left: -114px;
+    transform: translateY(-50%);
+}
+.journal_item{
+    border: 1px solid #e3e3e3;
+}
+.journal_item_titel h3{
+    font-size: 17px;
+    color: #444444;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.journal_item_titel p{
+    font-size: 12px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 23px;
+}
+.journal_footer{
+    padding: 26px 20px;
+}
+.journal_footer p{
+    font-size: 14px;
+    color: #666666;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 23px;
+}
+.journal_item_left a{
+    font-size: 14px;
+    color: #999999;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #28b8d8;
+}
+.journal_item_right a{ 
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.journal_item_right a i{ 
+    font-size: 14px;
+    padding-right: 4px;
+}
+/* ========================== journal commone css end ========================== */
+
+
+/* ========================== inner commone css start ========================== */
+
+#inner{
+    padding-bottom: 80px;
+}
+.profile_titel {
+    padding-bottom: 30px;
+}
+.profile_titel h3{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.profile_titel h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    right: -114px;
+    transform: translateY(-50%);
+}
+.profile_img img {
+    height: 280px;
+}
+.profile_text h4{
+    font-size: 18px;
+    color: #666666;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    line-height: 28px;
+    padding-bottom: 28px;
+}
+.profile_text p{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_titel {
+    padding-bottom: 30px;
+}
+.about_titel h3{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.about_titel h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    top: 50%;
+    right: -114px;
+    transform: translateY(-50%);
+}
+
+
+.about_inner_item_icon i{
+    font-size: 38px;
+    color: #28b8d8;
+}
+.about_inner_item_tex{
+    margin-left: 22px;
+}
+.about_inner_item_text h3{
+    font-size: 17px;
+    color: #444444;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+.about_inner_item_text p{
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* ========================== inner commone css end ========================== */
+
+
+/* ========================== Information commone css end ========================== */
+#information{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #373737;
+}
+.information_text h3{
+    font-size: 16px;
+    color: #f0f0f0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-bottom: 27px;
+    text-transform: uppercase;
+
+}
+.information_text p{
+    font-size: 14px;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 35px;
+    line-height: 24px;
+
+}
+.information_text ul li a{
+    font-size: 14px;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    padding-bottom: 14px;
+}
+.information_text ul li a i{
+    font-size: 14px;
+    margin-right: 20px;
+    color: #f0f0f0;
+}
+/* ========================== Information commone css end ========================== */
+
+/* ========================== footer commone css end ========================== */
+#footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #333333;
+}
+.footer_text h3{
+    font-size: 14px;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* ========================== footer commone css end ========================== */
